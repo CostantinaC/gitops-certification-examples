@@ -5,4 +5,4 @@ version: 1.0.0
 dependencies:
   - name: nginx
     version: "13.2.14"
-    repository: "https://github.com/bitnami/charts.git"
+    repository: "https://github.com/bitnami/charts"
