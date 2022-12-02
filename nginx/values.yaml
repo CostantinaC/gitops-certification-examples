@@ -13,5 +13,5 @@ service:
   ## ref: https://kubernetes.io/docs/concepts/services-networking/service/#type-nodeport
   ##
   nodePorts:
-    http: "30080"
-    https: "30443"
+    http: "38080"
+    https: "38443"
