@@ -3,4 +3,9 @@ nginx:
   image:
     registry: docker.io
     repository: bitnami/nginx
-    tag: latest
+  service:
+    type: NodePort
+    ports:
+      http: 80
+    nodePorts:
+      http: 38080
