@@ -1,2 +1,11 @@
 nginx:
   replicaCount: 2
+  image:
+    registry: docker.io
+    repository: bitnami/nginx
+  service:
+    type: NodePort
+    ports:
+      http: 80
+    nodePorts:
+      http: 31080
