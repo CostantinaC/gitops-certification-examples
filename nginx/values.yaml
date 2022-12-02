@@ -1,1 +1,6 @@
-replicaCount: 2
+nginx:
+  replicaCount: 2
+  image:
+    registry: docker.io
+    repository: bitnami/nginx
+    tag: latest
