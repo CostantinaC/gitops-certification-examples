@@ -9,4 +9,3 @@ nginx:
       http: 80
     nodePorts:
       http: 31080
-  staticSiteConfigmap: "nginx-static"
