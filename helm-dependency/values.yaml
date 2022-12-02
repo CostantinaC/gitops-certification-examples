@@ -1,7 +1,12 @@
+mariadb:
+  enabled: false
+  
 wordpress:
   wordpressPassword: heilaitisworking
   mariadb:
-    db:
-      password: bar
-    rootUser:
-      password: baz
+    enabled: false
+# mariadb:
+#    db:
+#      password: bar
+#    rootUser:
+#      password: baz
