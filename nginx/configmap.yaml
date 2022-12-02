@@ -4,4 +4,4 @@ metadata:
   name: nginx-static
 data:
   index.html: |
-    Hello World!!!
+    "Hello World!!!"
