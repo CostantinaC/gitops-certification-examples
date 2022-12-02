@@ -8,4 +8,4 @@ nginx:
     ports:
       http: 80
     nodePorts:
-      http: 38080
+      http: 31080
