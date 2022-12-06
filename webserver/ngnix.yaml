@@ -9,7 +9,7 @@ spec:
     server: https://kubernetes.default.svc 
   project: default 
   source: 
-    path: ./nginx-multiple-app/chart/
+    path: ./webserver/chart/
     repoURL: https://github.com/CostantinaC/gitops-certification-examples.git 
     targetRevision: HEAD
   syncPolicy: 
